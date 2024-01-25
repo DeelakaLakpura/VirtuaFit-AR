@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1037219375280",
+    "project_id": "virtuafit-aef64",
+    "storage_bucket": "virtuafit-aef64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037219375280:android:f31455c15abf42f56cf375",
+        "android_client_info": {
+          "package_name": "com.deelaka.virtuafit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfEj3-D-ahMimcy1u75s0I3dNj_Nx-NEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
