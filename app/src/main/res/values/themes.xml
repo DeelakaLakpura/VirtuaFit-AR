@@ -14,6 +14,10 @@
 
     <style name="Theme.VirtuaFit.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.VirtuaFit.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.VirtuaFit.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="Theme.VirtuaFit.NavigationBarColor" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+
 
 </resources>

@@ -8,7 +8,11 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
+    <string name="ARCoreStatus">Arcore Installed</string>
+    <string name="arcore_not_installed">ArCore Not Installed</string>
+    <string name="arcore_required">You Need ARCore To Use AR</string>
+    <string name="view_in_scene_view">View In Scene View</string>
+    <string name="wow_you_can_use_ar">Wow You Can Use AR</string>
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
@@ -16,6 +20,7 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_home">HomeActivity</string>
+
     <style name="default_web_client_id">1234</style>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

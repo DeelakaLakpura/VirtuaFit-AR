@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
-    tools:context=".SplashScreen.SplashActivity">
+    android:background="@color/primary_dark_color"
+  tools:context=".SplashScreen.SplashActivity">
 
 
     <View
@@ -51,6 +51,7 @@
             android:id="@+id/logo"
             android:layout_height="100dp"
             android:visibility="visible"
+            android:backgroundTint="#0F1F29"
             app:cardCornerRadius="10dp"
             app:cardElevation="7dp"
 
@@ -63,7 +64,6 @@
                 android:layout_marginTop="4dp"
                 android:layout_gravity="center"
                 android:src="@drawable/logo"
-                android:adjustViewBounds="true"
                 app:cardElevation="7dp">
             </ImageView>
 
@@ -94,6 +94,7 @@
             android:layout_gravity="center"
             android:fontFamily="@font/d_style"
             android:textSize="17sp"
+            android:textStyle="bold"
             android:textColor="@color/green1"
 
             android:visibility="invisible"
@@ -138,6 +139,18 @@
         android:visibility="invisible"
 
         />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="end"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/calibri"
+        android:layout_marginEnd="20dp"
+        android:text="Developed By : Deelaka Lakpura"
+        android:textColor="@color/gray" />
 
 
 
