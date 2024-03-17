@@ -1,16 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
-    tools:context=".AR.ARFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <!-- TODO: Update blank fragment layout -->
     <fragment
-        android:id="@+id/ARFragment"
-        android:layout_width="match_parent"
+        android:id="@+id/arFragment"
         android:name="com.google.ar.sceneform.ux.ArFragment"
-        android:layout_height="match_parent"
-        />
-</FrameLayout>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_marginRight="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Color"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/bariol_bold"
+            android:layout_marginBottom="10dp"
+            android:textSize="12sp"
+            android:textColor="@color/gray"
+            />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/color_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:cardCornerRadius="50dp"
+            android:backgroundTint="@color/black"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/color_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:cardCornerRadius="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/green"
+            />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/color_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:cardCornerRadius="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/red"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -247,7 +247,6 @@
                         android:textColor="@color/green"
                         android:textSize="@dimen/headerMoreTextSize"
                         android:textStyle="bold" />
-
                 </RelativeLayout>
 
 

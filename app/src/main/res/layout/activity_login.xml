@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-   android:background="@color/white"
     android:layout_height="match_parent"
     tools:context=".Authentication.LoginActivity">
 
@@ -46,7 +45,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:fontFamily="@font/nunitosemi"
-                    android:text="Unlock Your Learning Potential with Our LMS: Log In and Level Up!"
+                    android:text=""
                     android:textColor="@color/white"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -64,7 +63,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="65dp"
             android:fontFamily="@font/bariol_bold"
-            android:text="Login To SkillUp"
+            android:text=""
             android:textAlignment="center"
             android:textColor="@color/green1"
             android:textSize="45px" />
@@ -236,16 +235,6 @@
 
 
         </LinearLayout>
-
-
-
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/b"
-
-            />
 
 
     </LinearLayout>
