@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "1037219375280",
+    "firebase_url": "https://virtuafit-aef64-default-rtdb.firebaseio.com",
     "project_id": "virtuafit-aef64",
     "storage_bucket": "virtuafit-aef64.appspot.com"
   },
@@ -12,7 +13,12 @@
           "package_name": "com.deelaka.virtuafit"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1037219375280-u608vigrmopm1rlojp7l41ouhtv7aa7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAfEj3-D-ahMimcy1u75s0I3dNj_Nx-NEg"
@@ -20,7 +26,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037219375280-u608vigrmopm1rlojp7l41ouhtv7aa7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
